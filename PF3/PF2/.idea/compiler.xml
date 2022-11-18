@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="CO2Sensor" />
+        <module name="Application" />
+        <module name="TempSensor" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Application" target="1.7" />
+      <module name="CO2Sensor" target="1.7" />
+      <module name="HazelCast" target="1.7" />
+      <module name="st4-scfs-ref" target="1.8" />
+      <module name="TempSensor" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
